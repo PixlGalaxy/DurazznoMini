@@ -1,0 +1,37 @@
+@echo off
+
+color a 
+
+cls
+
+echo PRESS ANY KEY TO START INSTALLATION...
+echo LAST UPDATE 3/29/2021 1:10
+echo Version 1.5
+
+pause
+
+color b
+
+cls
+
+echo STARTING PSUTIL-LIB INSTALLATION...
+
+pip install psutil
+
+cls
+
+
+echo STARTING PLAYSOUND-LIB INSTALLATION...
+
+pip install playsound
+ 
+cls 
+
+color e
+
+cls
+
+echo INSTALLATION COMPLETE...
+echo PRESS ANY KEY TO EXIT...
+echo MADE BY GALAXY_THE_WOLF...
+pause
