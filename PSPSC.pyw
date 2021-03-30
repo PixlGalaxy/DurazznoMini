@@ -1,6 +1,6 @@
 #PC STARTER PACK MINI SCRIPT
 
-version = "2.2"
+version = "3.0"
 
 autoexit = 2
 

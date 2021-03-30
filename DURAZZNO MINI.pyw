@@ -96,7 +96,7 @@ class SystemTrayIcon(QtWidgets.QSystemTrayIcon):
             versiononline = (line.decode('utf-8')) 
 
         if version != versiononline:
-            os.startfile("updatestart.pyw")
+            os.startfile("UpdGitHub.pyw")
             sys.exit()
         elif version == versiononline:
             root = Tk()
