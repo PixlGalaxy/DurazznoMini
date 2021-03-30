@@ -1,4 +1,5 @@
 #GALAXY APP SCRIPT
+#GitHub Version
 
 version = "6.0.0"
 Notif = ""
@@ -118,13 +119,13 @@ class SystemTrayIcon(QtWidgets.QSystemTrayIcon):
         """
         :return:
         """
-        os.startfile("psp.pyw")
+        os.startfile("PSPSC.pyw")
         
     def open_PAP(self):
         """
         :return:
         """
-        os.startfile("papp.pyw")
+        os.startfile("DMSCPAPP.pyw")
 
     def open_CDI(self):
         """
