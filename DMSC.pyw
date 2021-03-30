@@ -1,6 +1,6 @@
 #GALAXY APP SCRIPT
 
-version = "5.9"
+version = "6.0.0"
 Notif = ""
 
 import os
